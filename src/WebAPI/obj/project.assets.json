@@ -75,6 +75,29 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Tiqri.CleanArchitectureTemple.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Tiqri.CleanArchitectureTemple.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Tiqri.CleanArchitectureTemple.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tiqri.CleanArchitectureTemple.Application.dll": {}
+        }
+      },
+      "Tiqri.CleanArchitectureTemple.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Tiqri.CleanArchitectureTemple.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tiqri.CleanArchitectureTemple.Domain.dll": {}
+        }
       }
     }
   },
@@ -185,11 +208,22 @@
         "swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Tiqri.CleanArchitectureTemple.Application/1.0.0": {
+      "type": "project",
+      "path": "../Application/Tiqri.CleanArchitectureTemple.Application.csproj",
+      "msbuildProject": "../Application/Tiqri.CleanArchitectureTemple.Application.csproj"
+    },
+    "Tiqri.CleanArchitectureTemple.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Tiqri.CleanArchitectureTemple.Domain.csproj",
+      "msbuildProject": "../Domain/Tiqri.CleanArchitectureTemple.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Swashbuckle.AspNetCore >= 5.6.3"
+      "Swashbuckle.AspNetCore >= 5.6.3",
+      "Tiqri.CleanArchitectureTemple.Application >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -200,9 +234,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\My-Workspace\\Projects\\Git-Repo\\src\\WebAPI\\WebAPI.csproj",
-      "projectName": "WebAPI",
-      "projectPath": "D:\\My-Workspace\\Projects\\Git-Repo\\src\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "D:\\My-Workspace\\Projects\\Git-Repo\\src\\WebAPI\\Tiqri.CleanArvhitectureTemple.WebAPI.csproj",
+      "projectName": "Tiqri.CleanArvhitectureTemple.WebAPI",
+      "projectPath": "D:\\My-Workspace\\Projects\\Git-Repo\\src\\WebAPI\\Tiqri.CleanArvhitectureTemple.WebAPI.csproj",
       "packagesPath": "C:\\Users\\rmj\\.nuget\\packages\\",
       "outputPath": "D:\\My-Workspace\\Projects\\Git-Repo\\src\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
@@ -225,7 +259,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\My-Workspace\\Projects\\Git-Repo\\src\\Application\\Tiqri.CleanArchitectureTemple.Application.csproj": {
+              "projectPath": "D:\\My-Workspace\\Projects\\Git-Repo\\src\\Application\\Tiqri.CleanArchitectureTemple.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

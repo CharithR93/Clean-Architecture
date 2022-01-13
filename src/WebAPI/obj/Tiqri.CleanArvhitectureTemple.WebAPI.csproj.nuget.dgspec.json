@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "D:\\My-Workspace\\Projects\\Git-Repo\\src\\WebAPI\\WebAPI.csproj": {}
+    "D:\\My-Workspace\\Projects\\Git-Repo\\src\\WebAPI\\Tiqri.CleanArvhitectureTemple.WebAPI.csproj": {}
   },
   "projects": {
     "D:\\My-Workspace\\Projects\\Git-Repo\\src\\Application\\Tiqri.CleanArchitectureTemple.Application.csproj": {
@@ -126,12 +126,12 @@
         }
       }
     },
-    "D:\\My-Workspace\\Projects\\Git-Repo\\src\\WebAPI\\WebAPI.csproj": {
+    "D:\\My-Workspace\\Projects\\Git-Repo\\src\\WebAPI\\Tiqri.CleanArvhitectureTemple.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\My-Workspace\\Projects\\Git-Repo\\src\\WebAPI\\WebAPI.csproj",
-        "projectName": "WebAPI",
-        "projectPath": "D:\\My-Workspace\\Projects\\Git-Repo\\src\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "D:\\My-Workspace\\Projects\\Git-Repo\\src\\WebAPI\\Tiqri.CleanArvhitectureTemple.WebAPI.csproj",
+        "projectName": "Tiqri.CleanArvhitectureTemple.WebAPI",
+        "projectPath": "D:\\My-Workspace\\Projects\\Git-Repo\\src\\WebAPI\\Tiqri.CleanArvhitectureTemple.WebAPI.csproj",
         "packagesPath": "C:\\Users\\rmj\\.nuget\\packages\\",
         "outputPath": "D:\\My-Workspace\\Projects\\Git-Repo\\src\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
