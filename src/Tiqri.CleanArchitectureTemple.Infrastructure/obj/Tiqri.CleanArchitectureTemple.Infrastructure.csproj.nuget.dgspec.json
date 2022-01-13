@@ -1,0 +1,193 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\My-Workspace\\Projects\\Git-Repo\\src\\Tiqri.CleanArchitectureTemple.Infrastructure\\Tiqri.CleanArchitectureTemple.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "D:\\My-Workspace\\Projects\\Git-Repo\\src\\Tiqri.CleanArchitectureTemple.Application\\Tiqri.CleanArchitectureTemple.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\My-Workspace\\Projects\\Git-Repo\\src\\Tiqri.CleanArchitectureTemple.Application\\Tiqri.CleanArchitectureTemple.Application.csproj",
+        "projectName": "Tiqri.CleanArchitectureTemple.Application",
+        "projectPath": "D:\\My-Workspace\\Projects\\Git-Repo\\src\\Tiqri.CleanArchitectureTemple.Application\\Tiqri.CleanArchitectureTemple.Application.csproj",
+        "packagesPath": "C:\\Users\\rmj\\.nuget\\packages\\",
+        "outputPath": "D:\\My-Workspace\\Projects\\Git-Repo\\src\\Tiqri.CleanArchitectureTemple.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rmj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\My-Workspace\\Projects\\Git-Repo\\src\\Tiqri.CleanArchitectureTemple.Domain\\Tiqri.CleanArchitectureTemple.Domain.csproj": {
+                "projectPath": "D:\\My-Workspace\\Projects\\Git-Repo\\src\\Tiqri.CleanArchitectureTemple.Domain\\Tiqri.CleanArchitectureTemple.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\My-Workspace\\Projects\\Git-Repo\\src\\Tiqri.CleanArchitectureTemple.Domain\\Tiqri.CleanArchitectureTemple.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\My-Workspace\\Projects\\Git-Repo\\src\\Tiqri.CleanArchitectureTemple.Domain\\Tiqri.CleanArchitectureTemple.Domain.csproj",
+        "projectName": "Tiqri.CleanArchitectureTemple.Domain",
+        "projectPath": "D:\\My-Workspace\\Projects\\Git-Repo\\src\\Tiqri.CleanArchitectureTemple.Domain\\Tiqri.CleanArchitectureTemple.Domain.csproj",
+        "packagesPath": "C:\\Users\\rmj\\.nuget\\packages\\",
+        "outputPath": "D:\\My-Workspace\\Projects\\Git-Repo\\src\\Tiqri.CleanArchitectureTemple.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rmj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\My-Workspace\\Projects\\Git-Repo\\src\\Tiqri.CleanArchitectureTemple.Infrastructure\\Tiqri.CleanArchitectureTemple.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\My-Workspace\\Projects\\Git-Repo\\src\\Tiqri.CleanArchitectureTemple.Infrastructure\\Tiqri.CleanArchitectureTemple.Infrastructure.csproj",
+        "projectName": "Tiqri.CleanArchitectureTemple.Infrastructure",
+        "projectPath": "D:\\My-Workspace\\Projects\\Git-Repo\\src\\Tiqri.CleanArchitectureTemple.Infrastructure\\Tiqri.CleanArchitectureTemple.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\rmj\\.nuget\\packages\\",
+        "outputPath": "D:\\My-Workspace\\Projects\\Git-Repo\\src\\Tiqri.CleanArchitectureTemple.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rmj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\My-Workspace\\Projects\\Git-Repo\\src\\Tiqri.CleanArchitectureTemple.Application\\Tiqri.CleanArchitectureTemple.Application.csproj": {
+                "projectPath": "D:\\My-Workspace\\Projects\\Git-Repo\\src\\Tiqri.CleanArchitectureTemple.Application\\Tiqri.CleanArchitectureTemple.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

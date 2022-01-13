@@ -14,6 +14,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0C820BE7
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI.Test", "tests\WebAPI.Test\WebAPI.Test.csproj", "{88B9614A-1146-4242-B0D6-FDC9AC0AB2AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tiqri.CleanArchitectureTemple.WebApi", "src\Tiqri.CleanArchitectureTemple.WebApi\Tiqri.CleanArchitectureTemple.WebApi.csproj", "{D262AE56-6FB6-4D88-B7DF-A31CA0F12804}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tiqri.CleanArchitectureTemple.Infrastructure", "src\Tiqri.CleanArchitectureTemple.Infrastructure\Tiqri.CleanArchitectureTemple.Infrastructure.csproj", "{824B3C99-9C89-4C76-98CA-424E9B643C60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tiqri.CleanArchitectureTemple.Domain", "src\Tiqri.CleanArchitectureTemple.Domain\Tiqri.CleanArchitectureTemple.Domain.csproj", "{9F8831C2-563B-40EA-B9B6-E5D9890309D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tiqri.CleanArchitectureTemple.Application", "src\Tiqri.CleanArchitectureTemple.Application\Tiqri.CleanArchitectureTemple.Application.csproj", "{FB11B70E-DB39-412C-A2BD-C09F89522BC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,12 +32,32 @@ Global
 		{88B9614A-1146-4242-B0D6-FDC9AC0AB2AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88B9614A-1146-4242-B0D6-FDC9AC0AB2AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88B9614A-1146-4242-B0D6-FDC9AC0AB2AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D262AE56-6FB6-4D88-B7DF-A31CA0F12804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D262AE56-6FB6-4D88-B7DF-A31CA0F12804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D262AE56-6FB6-4D88-B7DF-A31CA0F12804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D262AE56-6FB6-4D88-B7DF-A31CA0F12804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{824B3C99-9C89-4C76-98CA-424E9B643C60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{824B3C99-9C89-4C76-98CA-424E9B643C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{824B3C99-9C89-4C76-98CA-424E9B643C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{824B3C99-9C89-4C76-98CA-424E9B643C60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F8831C2-563B-40EA-B9B6-E5D9890309D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F8831C2-563B-40EA-B9B6-E5D9890309D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F8831C2-563B-40EA-B9B6-E5D9890309D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F8831C2-563B-40EA-B9B6-E5D9890309D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB11B70E-DB39-412C-A2BD-C09F89522BC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB11B70E-DB39-412C-A2BD-C09F89522BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB11B70E-DB39-412C-A2BD-C09F89522BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB11B70E-DB39-412C-A2BD-C09F89522BC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{88B9614A-1146-4242-B0D6-FDC9AC0AB2AD} = {0C820BE7-E3F1-4D97-897B-C92433679267}
+		{D262AE56-6FB6-4D88-B7DF-A31CA0F12804} = {9239D3E1-EBB8-4A70-8E05-A09D9D68E26F}
+		{824B3C99-9C89-4C76-98CA-424E9B643C60} = {9239D3E1-EBB8-4A70-8E05-A09D9D68E26F}
+		{9F8831C2-563B-40EA-B9B6-E5D9890309D9} = {9239D3E1-EBB8-4A70-8E05-A09D9D68E26F}
+		{FB11B70E-DB39-412C-A2BD-C09F89522BC3} = {9239D3E1-EBB8-4A70-8E05-A09D9D68E26F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E1A575D8-3ED1-4FC9-BF01-FEB2018CE5B7}
