@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Tiqri.CleanArchitectureTemple.Domain\Tiqri.CleanArchitectureTemple.Domain.csproj" />
+    <ProjectReference Include="..\Tiqri.CleanArchitectureTemple.Infrastructure\Tiqri.CleanArchitectureTemple.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
