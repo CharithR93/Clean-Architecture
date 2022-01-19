@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Tiqri.CleanArchitectureTemple.Application\Tiqri.CleanArchitectureTemple.Application.csproj" />
+    <ProjectReference Include="..\Tiqri.CleanArchitectureTemple.Application\Tiqri.CleanArchitectureTemplate.Application.csproj" />
   </ItemGroup>
 
 </Project>
