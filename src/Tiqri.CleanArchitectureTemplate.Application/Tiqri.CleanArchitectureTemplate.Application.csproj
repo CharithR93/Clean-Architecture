@@ -4,4 +4,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Tiqri.CleanArchitectureTemplate.Domain\Tiqri.CleanArchitectureTemplate.Domain.csproj" />
+    <ProjectReference Include="..\Tiqri.CleanArchitectureTemplate.Infrastructure\Tiqri.CleanArchitectureTemplate.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
