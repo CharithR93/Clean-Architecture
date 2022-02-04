@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Tiqri.CleanArchitectureTemple.Domain
+namespace Tiqri.CleanArchitectureTemplate.Domain
 {
     public class Class1
     {

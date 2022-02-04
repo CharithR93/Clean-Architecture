@@ -14,13 +14,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0C820BE7
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI.Test", "tests\WebAPI.Test\WebAPI.Test.csproj", "{88B9614A-1146-4242-B0D6-FDC9AC0AB2AD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tiqri.CleanArchitectureTemplate.WebApi", "src\Tiqri.CleanArchitectureTemple.WebApi\Tiqri.CleanArchitectureTemplate.WebApi.csproj", "{D262AE56-6FB6-4D88-B7DF-A31CA0F12804}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tiqri.CleanArchitectureTemplate.WebApi", "src\Tiqri.CleanArchitectureTemplate.WebApi\Tiqri.CleanArchitectureTemplate.WebApi.csproj", "{D262AE56-6FB6-4D88-B7DF-A31CA0F12804}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tiqri.CleanArchitectureTemplate.Infrastructure", "src\Tiqri.CleanArchitectureTemple.Infrastructure\Tiqri.CleanArchitectureTemplate.Infrastructure.csproj", "{824B3C99-9C89-4C76-98CA-424E9B643C60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tiqri.CleanArchitectureTemplate.Infrastructure", "src\Tiqri.CleanArchitectureTemplate.Infrastructure\Tiqri.CleanArchitectureTemplate.Infrastructure.csproj", "{824B3C99-9C89-4C76-98CA-424E9B643C60}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tiqri.CleanArchitectureTemplate.Domain", "src\Tiqri.CleanArchitectureTemple.Domain\Tiqri.CleanArchitectureTemplate.Domain.csproj", "{9F8831C2-563B-40EA-B9B6-E5D9890309D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tiqri.CleanArchitectureTemplate.Domain", "src\Tiqri.CleanArchitectureTemplate.Domain\Tiqri.CleanArchitectureTemplate.Domain.csproj", "{9F8831C2-563B-40EA-B9B6-E5D9890309D9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tiqri.CleanArchitectureTemplate.Application", "src\Tiqri.CleanArchitectureTemple.Application\Tiqri.CleanArchitectureTemplate.Application.csproj", "{FB11B70E-DB39-412C-A2BD-C09F89522BC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tiqri.CleanArchitectureTemplate.Application", "src\Tiqri.CleanArchitectureTemplate.Application\Tiqri.CleanArchitectureTemplate.Application.csproj", "{FB11B70E-DB39-412C-A2BD-C09F89522BC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
