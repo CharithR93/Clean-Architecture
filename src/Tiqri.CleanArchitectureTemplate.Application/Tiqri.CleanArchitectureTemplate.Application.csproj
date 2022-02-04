@@ -9,4 +9,8 @@
     <ProjectReference Include="..\Tiqri.CleanArchitectureTemplate.Infrastructure\Tiqri.CleanArchitectureTemplate.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Common\Interface\" />
+  </ItemGroup>
+
 </Project>
