@@ -12,12 +12,12 @@ namespace Tiqri.CleanArchitectureTemplate.Infrastructure.Persistence.UnitOfWork
     public class UnitOfWork : IUnitOfWork
     {
         private readonly ApplicationDbContext _context;
-        public UnitOfWork(ApplicationDbContext context)
+        public UnitOfWork(ApplicationDbContext context,IEmployeeRepository employeeRepository)
         {
             _context = context;
-            Employees = new EmployeeRepository(_context);
+            _employees = employeeRepository;
         }
-        public IEmployeeRepository Employees { get;  set; }
+        public IEmployeeRepository _employees { get;  set; }
         public int Complete()
         {
             return _context.SaveChanges();

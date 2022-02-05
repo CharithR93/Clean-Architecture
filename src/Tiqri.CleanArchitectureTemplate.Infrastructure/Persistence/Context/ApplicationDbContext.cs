@@ -10,7 +10,7 @@ using Tiqri.CleanArchitectureTemplate.Domain.Entities;
 
 namespace Tiqri.CleanArchitectureTemplate.Infrastructure.Persistence.Context
 {
-    public class ApplicationDbContext : DbContext, IApplicationDbContext
+    public class ApplicationDbContext : DbContext
     {
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Department> Departments { get; set ; }
@@ -24,10 +24,6 @@ namespace Tiqri.CleanArchitectureTemplate.Infrastructure.Persistence.Context
         {
         }
 
-        public async Task<int> SaveChanges(CancellationToken cancellationToken)
-        {
-            var result = await base.SaveChangesAsync(cancellationToken);
-            return result;
-        }
+
     }
 }

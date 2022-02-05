@@ -8,7 +8,7 @@ namespace Tiqri.CleanArchitectureTemplate.Application.Common.Interfaces
 {
     public interface IUnitOfWork :IDisposable
     {
-         IEmployeeRepository Employees { get;  set; }
+         IEmployeeRepository _employees { get;  set; }
         int Complete();
     }
 }

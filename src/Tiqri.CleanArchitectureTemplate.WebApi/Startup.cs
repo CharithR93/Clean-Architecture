@@ -14,6 +14,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Tiqri.CleanArchitectureTemplate.Application.Common.Interfaces;
 using Tiqri.CleanArchitectureTemplate.Infrastructure.Persistence.Context;
+using Tiqri.CleanArchitectureTemplate.Infrastructure.Persistence.Repositories;
+using Tiqri.CleanArchitectureTemplate.Infrastructure.Persistence.UnitOfWork;
 
 namespace Tiqri.CleanArchitectureTemple.WebApi
 {
@@ -38,8 +40,9 @@ namespace Tiqri.CleanArchitectureTemple.WebApi
                 options => options.UseSqlServer(configuration["ConnectionStrings:DB"]),
                 ServiceLifetime.Scoped);
 
-            services.AddScoped<IApplicationDbContext>(provider => provider.GetService<ApplicationDbContext>());
-
+            services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+            services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
