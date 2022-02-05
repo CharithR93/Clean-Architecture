@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Tiqri.CleanArchitectureTemplate.Application.Common.Interfaces
 {
-    public interface IApplicationDbContext
-    {
-        //DbSet<TodoList> TodoLists { get; set; }
-
-        //DbSet<TodoItem> TodoItems { get; set; }
+    public interface IUnitOfWork
+    {        
+        Task BeginAsync();
+        Task<int> CommitAsync();
+        Task RollbackAsync();
     }
 }

@@ -1,3 +1,4 @@
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -32,6 +33,9 @@ namespace Tiqri.CleanArchitectureTemple.WebApi
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Tiqri.CleanArchitectureTemple.WebApi", Version = "v1" });
             });
+
+
+            services.AddMediatR(typeof(Startup));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
