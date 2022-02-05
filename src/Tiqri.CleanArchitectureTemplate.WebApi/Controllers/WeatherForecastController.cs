@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Tiqri.CleanArchitectureTemplate.Application.Common.Interfaces;
 
 namespace Tiqri.CleanArchitectureTemple.WebApi.Controllers
 {
@@ -11,6 +12,7 @@ namespace Tiqri.CleanArchitectureTemple.WebApi.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
+        private readonly IUnitOfWork unit;
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"

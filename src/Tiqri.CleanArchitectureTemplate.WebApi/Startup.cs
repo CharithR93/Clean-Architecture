@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -11,6 +12,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Tiqri.CleanArchitectureTemplate.Application.Common.Interfaces;
+using Tiqri.CleanArchitectureTemplate.Infrastructure.Persistence.Context;
 
 namespace Tiqri.CleanArchitectureTemple.WebApi
 {
@@ -26,6 +29,16 @@ namespace Tiqri.CleanArchitectureTemple.WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var configuration = new ConfigurationBuilder()
+             .SetBasePath(AppContext.BaseDirectory)
+             .AddJsonFile("appsettings.json", true, true)
+             .Build();
+
+            services.AddDbContext<ApplicationDbContext>(
+                options => options.UseSqlServer(configuration["ConnectionStrings:DB"]),
+                ServiceLifetime.Scoped);
+
+            services.AddScoped<IApplicationDbContext>(provider => provider.GetService<ApplicationDbContext>());
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

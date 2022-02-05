@@ -1,0 +1,4 @@
+﻿Add migrations and apply those migrations into the database
+-----------------------------------------------------------------
+add-migration Initial -OutputDir "Persistence\Migrations\"
+update-database
